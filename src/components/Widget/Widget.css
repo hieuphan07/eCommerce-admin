@@ -1,0 +1,32 @@
+.widget-wrapper {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	width: 100%;
+
+	.widget-info {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+
+		.widget-info__number {
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		.widget-info__info {
+			font-size: 12px;
+			color: #999;
+		}
+	}
+
+	.widget-icon {
+		i {
+			color: #999;
+		}
+	}
+}
